@@ -14,15 +14,13 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 ul {
   list-style: none;
   list-style-type: none;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
   padding-left: 0;
 }
 
@@ -41,6 +39,8 @@ address {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -57,7 +57,13 @@ img {
 }
 
 .container {
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 /* ======================================== */
@@ -151,7 +157,7 @@ img {
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  padding: 188px 472px;
+  padding: 188px 316px;
   gap: 48px;
 }
 
@@ -192,7 +198,6 @@ img {
 .features-container {
   display: flex;
   justify-content: center;
-  margin: 120px 156px;
 }
 
 .features-list {
@@ -239,7 +244,6 @@ img {
   align-items: center;
   flex-direction: column;
   gap: 72px;
-  padding: 120px 156px;
 }
 
 .team-title {
@@ -294,13 +298,6 @@ img {
 /* ======================================= */
 
 /* ===============portfolio=============== */
-
-.portfolio {
-}
-
-.portfolio-wrap {
-  padding: 120px 156px;
-}
 
 .portfolio-title {
   font-size: 36px;
@@ -360,8 +357,8 @@ img {
 .footer-content {
   display: flex;
   flex-direction: column;
-  padding: 100px 1020px 100px 156px;
   gap: 16px;
+  padding: 100px 860px 100px 0;
 }
 
 .footer-logo {
