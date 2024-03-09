@@ -79,6 +79,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-navigation {
@@ -122,6 +123,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .header-nav-link:hover,
@@ -135,7 +137,6 @@ img {
   font-style: normal;
   flex-direction: row;
   gap: 40px;
-  margin: 24px 0;
 }
 
 .header-address-link {
@@ -160,11 +161,9 @@ img {
 }
 
 .hero-container {
-  display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 316px;
   gap: 48px;
 }
 
@@ -175,6 +174,8 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -193,6 +194,7 @@ img {
   border-radius: 4px;
   align-items: center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -212,10 +214,8 @@ img {
 }
 
 .features-item {
-  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: column;
   width: calc((100% - 72px) / 4);
 }
 
@@ -262,8 +262,6 @@ img {
 
 .team-item {
   background: #fff;
-  display: flex;
-  flex-direction: column;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -315,7 +313,6 @@ img {
 
 .portfolio-item {
   background: #fff;
-  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 
